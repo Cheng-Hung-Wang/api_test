@@ -1,0 +1,8 @@
+Host,http://localhost,,,,
+Name,path,method,content-type,parameter,body
+API_NAME,/test,POST,application/json,access_token=287dd2becc08758f0dd54e8d16cf41bc0a5babe2923a46dfdd46eb7bbcbd38861bc49033b8f63cfc4f634e21a79db4637aa8839ce5aa40b37df776df31287888,"{
+   ""key1"": ""value"",
+   ""key2"": ""value""
+}"
+API_NAME,/test,GET,,"a=1,b=2",
+#pass,/test,GET,,"a=1,b=2",
